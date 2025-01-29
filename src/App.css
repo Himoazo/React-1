@@ -1,0 +1,11 @@
+/* Film-card grid */
+.cardGrid {
+    width: 80%;
+    max-width: 1200px;
+    align-items: center;
+    justify-items: center;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+  }
